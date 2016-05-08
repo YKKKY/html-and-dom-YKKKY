@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <style type="text/css">
+
+        .nav {
+            font-family: "Bitstream Charter";
+            font-size: 40px;
+            height: 60px;
+            width: 1000px;
+            margin-left: 100px;
+        }
+
+        .ul {
+            margin-left: 250px;
+        }
+
+    </style>
+    <script src="result.js">
+
+    </script>
+
+</head>
+<body>
+
+<p align="center" cellpadding="10" class="nav">统一建模语言理论测试</p>
+<p align="center" font-size="30px" cellspacing="100px">
+
+    考试科目:<input type="text" name="testname" size="20" value="     统一建模语言">
+    时间：<input type="text" name="time" size="20" value=" 100分钟">
+    得分：<input type="text" name="score" size="20"><br/><br/>
+
+    班级：<input type="text" name="class" size="20">
+    学号：<input type="text" name="number" size="20">
+    姓名：<input type="text" name="username" size="20"><br/>
+</p>
+<ul class="ul">
+    <h3> 一、填空题 </h3>
+    <ol>
+        <li> UML 的中文全称是:<input type="text" name="fill1" size="20"></li>
+        <li> 对象最突出的特征是:<input type="text" name="fill2" size="20"></li>
+    </ol>
+    <h3>二、选择题 </h3>
+    <face> 1. UML 与软件工程的关系是:</face>
+    <ol>
+
+        <input type="radio" name="radio-choice1">UML 就是软件工程<br/>
+        <input type="radio" name="radio-choice1">
+        UML 参与到软件工程中软件开发过程的几个阶段<br/>
+        <input type="radio" name="radio-choice1">
+        UML 与软件工程无关<br/>
+        <input type="radio" name="radio-choice1">
+        UML 是软件工程的一部分<br/>
+
+    </ol>
+    <face> 2. Java 语言支持:</face>
+    <ol>
+
+        <input type="radio" name="radio-choice2">单继承<br/>
+        <input type="radio" name="radio-choice2">多继承<br/>
+        <input type="radio" name="radio-choice2">单继承和多继承都支持<br/>
+        <input type="radio" name="radio-choice2"> 单继承和多继承都不支持<br/>
+    </ol>
+
+    <h3>三、多选题 </h3>
+    <face> 1. 用例的粒度分为以下哪三种。</face>
+    <ol>
+        <input type="checkbox" name="checkbox-choice1">概述级、<br/>
+        <input type="checkbox" name="checkbox-choice1">需求级<br/>
+        <input type="checkbox" name="checkbox-choice1">用户目标级<br/>
+        <input type="checkbox" name="checkbox-choice1">子功能级<br/>
+    </ol>
+    <face> 2. 类图由以下哪三部分组成。</face>
+    <ol>
+        <input type="checkbox" name="checkbox-choice2">名称(Name)<br/>
+        <input type="checkbox" name="checkbox-choice2">属性(Attribute)<br/>
+        <input type="checkbox" name="checkbox-choice2">操作(Operation)用户目标级<br/>
+        <input type="checkbox" name="checkbox-choice2">方法(Function)<br/>
+    </ol>
+
+    <h3>四、判断题 </h3>
+    <face>1. 用例图只是用于和客户交流和沟通的,用于确定需求。
+
+        <input type="radio" name="judge1"> 对
+    </face>
+    <input type="radio" name="judge1">错<br/></face><br/>
+
+    <face>2.在状态图中,终止状态在一个状态图中允许有任意多个。
+        <input type="radio" name="judge12">对
+    </face>
+    <input type="radio" name="judge12">错<br/></face>
+
+    <h3>五、简 答 题 </h3>
+    <face>1.简述什么是模型以及模型的表现形式? <br/>
+        <input type="text" name="shortAnswer" size="100"></face>
+
+</ul>
+<button onclick="result()">提交</button>
+</body>
+</html>
